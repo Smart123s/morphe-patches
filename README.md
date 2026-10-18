@@ -25,6 +25,12 @@ Run `./gradlew :patches:buildAndroid`. The bundle is generated at
 `patches/build/libs/patches-*.mpp` and can be applied with
 [Morphe Desktop](https://github.com/MorpheApp/morphe-desktop).
 
+Native builds require Linux x86_64, Python 3 and Android NDK r27c
+(`27.2.12479018`). Install it with `sdkmanager "ndk;27.2.12479018"` and set
+`ANDROID_NDK_HOME` to that directory. Initialize source dependencies with
+`git submodule update --init --recursive` before building.
+Ricardo's build script and pinned engine sources are under `extensions/ricardo`.
+
 Develop on feature branches targeting `dev`. Semantic commits such as `feat:`
 and `fix:` produce prereleases on `dev`; merge `dev` into `main` without squashing
 for stable releases. If `dev` does not exist yet, create it from `main`.

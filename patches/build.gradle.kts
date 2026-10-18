@@ -19,7 +19,10 @@ val patchListGeneratorClasspath = configurations.create("patchListGeneratorClass
 dependencies {
     compileOnly(libs.gson)
     patchListGeneratorClasspath(libs.gson)
+    testImplementation(kotlin("test-junit"))
 }
+
+apply(from = rootProject.file("extensions/ricardo/native.gradle.kts"))
 
 tasks {
     register<JavaExec>("generatePatchesList") {
