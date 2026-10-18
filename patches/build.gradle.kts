@@ -1,14 +1,13 @@
-group = "app.template"
+group = "app.smart123s"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
+        name = "Smart123s' patches"
         description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        source = "https://github.com/Smart123s/morphe-patches"
+        author = "Smart123s"
+        contact = "https://github.com/Smart123s/morphe-patches/issues"
+        website = "https://github.com/Smart123s/morphe-patches"
         license = "GPLv3"
     }
 }
