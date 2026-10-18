@@ -9,8 +9,23 @@ This is an independent project.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
+> **[v1.0.0](https://github.com/Smart123s/morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+<details open>
+<summary>📦 Ricardo nem lopot&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<br>
 
-The patch list will appear here after the first release.
+**🎯 Supported versions:**
+
+| 2.077 |
+| :---: |
+
+| 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
+|----------|----------------|-----------|
+| [ARM64 support](#arm64-support) | Adds ARM64 builds of the game's libGDX 1.1.0 libraries for 64-bit-only Android devices. |  |
+| [Immersive fullscreen](#immersive-fullscreen) | Enables the engine's immersive mode to hide system bars during play, including after returning to the game. |  |
+| [Landscape rotation](#landscape-rotation) | Allows both landscape directions when rotating the phone through 180 degrees. |  |
+
+</details>
 
 <!-- PATCHES_END -->
 
