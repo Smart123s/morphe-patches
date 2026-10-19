@@ -9,9 +9,9 @@ This is an independent project.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.1.0](https://github.com/Smart123s/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
+> **[v1.2.0](https://github.com/Smart123s/morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;5 patches total
 <details open>
-<summary>📦 Ricardo nem lopot&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
+<summary>📦 Ricardo nem lopot&nbsp;&nbsp;•&nbsp;&nbsp;5 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -25,6 +25,7 @@ This is an independent project.
 | [Balance editor](#balance-editor) | Adds a coin button below Gameplay Challenge on the tuning screen to set and save the balance. |  |
 | [Immersive fullscreen](#immersive-fullscreen) | Enables the engine's immersive mode to hide system bars during play, including after returning to the game. |  |
 | [Landscape rotation](#landscape-rotation) | Allows both landscape directions when rotating the phone through 180 degrees. |  |
+| [Unlock Bora Bora](#unlock-bora-bora) | Unlocks the second map, Bora Bora, by default without spending coins. |  |
 
 </details>
 

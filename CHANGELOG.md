@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/Smart123s/morphe-patches/compare/v1.1.0...v1.2.0) (2026-10-19)
+
+### ✨ New Features
+
+* **Ricardo nem lopot:** unlock Bora Bora map ([8789843](https://github.com/Smart123s/morphe-patches/commit/8789843d29d04f6f013ddcbe8d9069c44906f878))
+
 ## [1.1.0](https://github.com/Smart123s/morphe-patches/compare/v1.0.0...v1.1.0) (2026-10-19)
 
 ### ✨ New Features
