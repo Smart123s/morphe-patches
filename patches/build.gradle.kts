@@ -12,13 +12,10 @@ patches {
     }
 }
 
-// Separate configuration so gson is available at runtime for the
-// generatePatchesList task but never bundled into the APK.
-val patchListGeneratorClasspath = configurations.create("patchListGeneratorClasspath")
-
 dependencies {
-    compileOnly(libs.gson)
-    patchListGeneratorClasspath(libs.gson)
+    // Used by the menu resource patch and patch-list generator. This belongs
+    // in the patch host's bundle, not the separate Android extension DEX.
+    implementation(libs.gson)
     testImplementation(kotlin("test-junit"))
 }
 
@@ -30,7 +27,7 @@ tasks {
 
         dependsOn(build)
 
-        classpath = sourceSets["main"].runtimeClasspath + patchListGeneratorClasspath
+        classpath = sourceSets["main"].runtimeClasspath
         mainClass.set("util.PatchListGeneratorKt")
     }
 
