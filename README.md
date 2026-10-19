@@ -9,9 +9,9 @@ This is an independent project.
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0](https://github.com/Smart123s/morphe-patches/releases/tag/v1.0.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.1.0](https://github.com/Smart123s/morphe-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;4 patches total
 <details open>
-<summary>📦 Ricardo nem lopot&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
+<summary>📦 Ricardo nem lopot&nbsp;&nbsp;•&nbsp;&nbsp;4 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -22,6 +22,7 @@ This is an independent project.
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
 | [ARM64 support](#arm64-support) | Adds ARM64 builds of the game's libGDX 1.1.0 libraries for 64-bit-only Android devices. |  |
+| [Balance editor](#balance-editor) | Adds a coin button below Gameplay Challenge on the tuning screen to set and save the balance. |  |
 | [Immersive fullscreen](#immersive-fullscreen) | Enables the engine's immersive mode to hide system bars during play, including after returning to the game. |  |
 | [Landscape rotation](#landscape-rotation) | Allows both landscape directions when rotating the phone through 180 degrees. |  |
 
